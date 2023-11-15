@@ -30,7 +30,7 @@ const DataFetch = () => {
 
     // Detach the listener when the component unmounts
     return () => itemsRef.off("value");
-  }, []); // Run the effect once when the component mounts
+  }, []); // Run the effect once when the component mounts.
 
   return (
     <View>
